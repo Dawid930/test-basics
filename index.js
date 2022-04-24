@@ -6,6 +6,6 @@ const search = (arr, word) => {
      return result.length > 5 ? result.slice(0, 5) : result
 }
 
-//console.log(search(data, "Hend"));
+console.log(search(data, "Op"));
 
 module.exports = search

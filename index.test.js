@@ -17,3 +17,9 @@ it("Search with Bombay keyword, expected non empty array as a result", () => {
     expect(search(mockDb, "Bombay")).toEqual(["Bombay Sapphire2"])
    
 })
+
+it("Search with Opera keyword, expected non empty array as a result", () => {
+    expect(search(mockDb, "Op")).toEqual(["Opera2"])
+})
+
+
